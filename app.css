@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     /* background-color: orangered; */
-    background-color: #ff7a8a;
+    background-color: #b91629e1;
     font-family: rubik;
     color: white;
 }
@@ -41,8 +41,8 @@ body {
     left: 0;
     height: 100vh;
     width: 100vw;
-    background: #fcf594;
-    opacity: 0.85;
+    background: white;
+    opacity: 0.95;
     display: flex;
     justify-content: center;
     align-items: center;

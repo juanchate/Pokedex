@@ -59,7 +59,7 @@ const displayPopup = (pokemon) => {
     const htmlString = `
         <div class="popup">
             <button id="closeBtn" onclick="closePopup()">Close</button>
-            <div style="background-color: #fcf594" class="card" onclick="selectPokemon(${pokemon.id})">
+            <div style="background-color: white" class="card" onclick="selectPokemon(${pokemon.id})">
                 <img class="card-image" src="${pokemon.sprites.front_default}"/>
                 <h2 class="card-title">${pokemon.id}. ${pokemon.name}</h2>
                 <p><small>Height: </small>${pokemon.height}
